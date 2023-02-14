@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv\ReadSensor2.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct ReadSensor2_Request {
+      int64 numsamples;
+    };
+    struct ReadSensor2_Response {
+      sequence<float> response;
+    };
+  };
+};

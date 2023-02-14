@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_introspection_cpp\interfaces\msg\detail\sensor_read__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_introspection_cpp\interfaces\srv\detail\read_sensor__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_introspection_cpp\interfaces\srv\detail\read_sensor2__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_introspection_cpp\interfaces\msg\detail\sensor_read__rosidl_typesupport_introspection_cpp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_introspection_cpp\interfaces\srv\detail\read_sensor__rosidl_typesupport_introspection_cpp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_introspection_cpp\interfaces\srv\detail\read_sensor2__rosidl_typesupport_introspection_cpp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\1795ebecebae6dd66928a1382534c1d4\sensor_read__rosidl_typesupport_introspection_cpp.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\robotic_hw\src\interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7DD1AAC5-2EBB-3DCD-B73B-02E82D5F5DC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3FE6DC44-9723-38EB-A31B-4046DAE4A7AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C946D6D-842B-365F-9575-7D8C735CBFCE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+CMake Error at C:/opt/ros/foxy/x64/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/ReadSensor.srv' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  'C:/dev/robotic_hw/src/interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (rosidl_generate_interfaces)
+
+

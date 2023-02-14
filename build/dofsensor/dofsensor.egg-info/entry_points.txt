@@ -1,0 +1,5 @@
+[console_scripts]
+client = dofsensor.client:main
+service = dofsensor.server:main
+talker = dofsensor.publisher:main
+

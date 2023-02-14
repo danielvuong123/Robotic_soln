@@ -1,0 +1,34 @@
+[0.094s] Invoking command in 'C:\dev\robotic_hw\build\interfaces': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install -G Visual Studio 16 2019
+[0.219s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+[1.438s] -- The C compiler identification is MSVC 19.29.30147.0
+[2.157s] -- The CXX compiler identification is MSVC 19.29.30147.0
+[2.282s] -- Detecting C compiler ABI info
+[2.875s] -- Detecting C compiler ABI info - done
+[2.875s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[2.891s] -- Detecting C compile features
+[2.891s] -- Detecting C compile features - done
+[2.922s] -- Detecting CXX compiler ABI info
+[3.516s] -- Detecting CXX compiler ABI info - done
+[3.516s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[3.516s] -- Detecting CXX compile features
+[3.516s] -- Detecting CXX compile features - done
+[3.547s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[3.750s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[3.750s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[4.516s] -- Found rosidl_default_generators: 1.0.1 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+[4.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.641s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[4.891s] -- Found OpenSSL: optimized;C:/opt/ros/foxy/x64/Lib/libcrypto.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1g")  
+[4.969s] -- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+[5.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.579s] CMake Error at C:/opt/ros/foxy/x64/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[5.579s]   rosidl_generate_interfaces() the passed file 'msg/ReadSensor.srv' doesn't
+[5.579s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[5.579s]   'C:/dev/robotic_hw/src/interfaces'
+[5.579s] Call Stack (most recent call first):
+[5.579s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[5.579s] 
+[5.579s] 
+[5.579s] -- Configuring incomplete, errors occurred!
+[5.579s] See also "C:/dev/robotic_hw/build/interfaces/CMakeFiles/CMakeOutput.log".
+[5.594s] Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '1': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install -G Visual Studio 16 2019

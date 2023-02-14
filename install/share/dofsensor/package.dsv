@@ -1,0 +1,15 @@
+source;share\dofsensor\hook\cmake_prefix_path.ps1
+source;share\dofsensor\hook\cmake_prefix_path.bat
+source;share\dofsensor\hook\cmake_prefix_path.dsv
+source;share\dofsensor\hook\path_dll.ps1
+source;share\dofsensor\hook\path_dll.bat
+source;share\dofsensor\hook\path_dll.dsv
+source;share\dofsensor\hook\path.ps1
+source;share\dofsensor\hook\path.bat
+source;share\dofsensor\hook\path.dsv
+source;share\dofsensor\hook\pythonpath.ps1
+source;share\dofsensor\hook\pythonpath.bat
+source;share\dofsensor\hook\pythonpath.dsv
+source;share\dofsensor\hook\ament_prefix_path.ps1
+source;share\dofsensor\hook\ament_prefix_path.bat
+source;share\dofsensor\hook\ament_prefix_path.dsv

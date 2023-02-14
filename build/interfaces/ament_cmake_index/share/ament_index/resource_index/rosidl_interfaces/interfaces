@@ -1,0 +1,10 @@
+msg/SensorRead.idl
+msg/SensorRead.msg
+srv/ReadSensor.idl
+srv/ReadSensor.srv
+srv/ReadSensor2.idl
+srv/ReadSensor2.srv
+srv/ReadSensor2_Request.msg
+srv/ReadSensor2_Response.msg
+srv/ReadSensor_Request.msg
+srv/ReadSensor_Response.msg

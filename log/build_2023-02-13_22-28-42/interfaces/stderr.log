@@ -1,0 +1,7 @@
+CMake Error at cmake_install.cmake:59 (file):
+  file INSTALL cannot copy file
+  "C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_generator_c.dll"
+  to "C:/dev/robotic_hw/install/bin/interfaces__rosidl_generator_c.dll":
+  Permission denied.
+
+
