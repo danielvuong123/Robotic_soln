@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='dvuon',
     maintainer_email='dcvuong@mit.edu',
-    description='Robotics HW',
-    license='None',
+    description='dof sensor client, server, and publisher',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

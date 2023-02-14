@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\dev\robotic_hw\build\interfaces\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\dev\Robotic_soln\build\interfaces\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_generator_c.dll</FullPath>
+      <FullPath>C:\dev\Robotic_soln\build\interfaces\Release\interfaces__rosidl_generator_c.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_c.dll</FullPath>
+      <FullPath>C:\dev\Robotic_soln\build\interfaces\Release\interfaces__rosidl_typesupport_c.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

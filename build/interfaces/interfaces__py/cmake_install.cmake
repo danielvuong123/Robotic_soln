@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/robotic_hw/build/interfaces/interfaces__py
+# Install script for directory: C:/dev/Robotic_soln/build/interfaces/interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/dev/robotic_hw/install")
+  set(CMAKE_INSTALL_PREFIX "C:/dev/Robotic_soln/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

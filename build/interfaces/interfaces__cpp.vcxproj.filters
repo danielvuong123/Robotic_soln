@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\e8c632144a6ae326884ddcb0f90ce410\sensor_read.hpp.rule">
+    <CustomBuild Include="C:\dev\Robotic_soln\build\interfaces\CMakeFiles\82b3d8633a71456ea04afa56ab6f832d\sensor_read.hpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\afb99443377d0b2c7e73621efdf2874f\interfaces__cpp.rule">
+    <CustomBuild Include="C:\dev\Robotic_soln\build\interfaces\CMakeFiles\26d9e45c98501a5f5b024e64e7232a37\interfaces__cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\dev\robotic_hw\src\interfaces\CMakeLists.txt" />
+    <CustomBuild Include="C:\dev\Robotic_soln\src\interfaces\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\interfaces__cpp" />
+    <None Include="C:\dev\Robotic_soln\build\interfaces\CMakeFiles\interfaces__cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7DD1AAC5-2EBB-3DCD-B73B-02E82D5F5DC9}</UniqueIdentifier>
+      <UniqueIdentifier>{63C2B8D0-5266-3A57-B9CB-2DBF6B24CD34}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

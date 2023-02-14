@@ -1,5 +1,0 @@
-  File "C:\dev\robotic_hw\install\Lib\site-packages\dofsensor\server.py", line 35
-    byte_data = self.sock.recv(self.port = port)
-                               ^
-SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
-

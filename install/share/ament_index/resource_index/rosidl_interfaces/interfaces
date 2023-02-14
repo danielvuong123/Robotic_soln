@@ -1,5 +1,7 @@
 msg/SensorRead.idl
 msg/SensorRead.msg
+msg/SensorRead2.idl
+msg/SensorRead2.msg
 srv/ReadSensor.idl
 srv/ReadSensor.srv
 srv/ReadSensor2.idl

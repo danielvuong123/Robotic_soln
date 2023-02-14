@@ -1,5 +1,0 @@
-  File "C:\dev\robotic_hw\install\Lib\site-packages\dofsensor\server.py", line 38
-    rclpy.init(args**)
-                     ^
-SyntaxError: invalid syntax
-

@@ -4,13 +4,11 @@
 First, we must layout the version of Ros2 used for the development of this package. This package was compuled with the most recent verson of Ros2: Foxy. This was also built within a Windows device, and commands should be run a VS Native Tools Command Prompt. The necessary commands and their purposes are as follows:
 - Initialize ros2 and services: "call install/setup.bat"
 - Start sensor: "python sensor.py"
-- Being server service: "ros2 run dofsensor service"
-- Send client request to server: "ros2 run dofsensor client {number of samples}"
--Start publisher to read from server to topics: "ros2 run dofsensor talker"
+- Begin server service for either sensor: "ros2 run dofsensor service {sensor#}"
+- Send client request to either server: "ros2 run dofsensor client {number of samples} {sensor#}"
+- Start publisher to read from server to topics: "ros2 run dofsensor talker"
 
-Note: current is incomplete, as of 11:46pm 2-13-2023:
-- Client has no support for choosing which server to call
-- Publisher fails to properly read from the servers, and thus, can't publish
+For the publisher, the grading criteria specifies explaining the chosen # of samples for each of the sensors. Although primited, the values i've chosen for the first sensor is 6 and for the second I've chosen 20. For the first sensor, I understand that our goal is to publish the most data possible with no loss. If our publisher executes at a rate of once per .002s (500hz), then in a perfect world (without delay) we would publish 4 samples, capturing all 2000 datapoints published by the sensor (2000hz). However due to the deley, of .001, we understand that we will lose about 2 data points per call, thus we must grab 6 datapoints instead to compenstate for the delay. The same logic is used to compute the value for the second sensor.
 
 ## Context
 The design of our cells in Machina Labs has evolved over the past years. Currently, each of our cells has two articulated industrial robots on rails (a total of 7 axes) and a frame with hydraulic clamps. For the parts to form correctly, we must exert and maintain a dynamic force during the forming in a very accurate location in space. Currently, each robot is equipped with a load cell. See a quick video about our process [here](https://www.youtube.com/watch?v=iqYMprTEXRI). We are using ROS2 to collect the data from the network and control the robots in real-time. As a robotic engineer, we keep developing different modules for our network to add features to the system.  

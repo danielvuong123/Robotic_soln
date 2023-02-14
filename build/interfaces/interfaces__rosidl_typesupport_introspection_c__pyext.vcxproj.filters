@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_generator_py\interfaces\_interfaces_s.ep.rosidl_typesupport_introspection_c.c">
+    <ClCompile Include="C:\dev\Robotic_soln\build\interfaces\rosidl_generator_py\interfaces\_interfaces_s.ep.rosidl_typesupport_introspection_c.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\dev\robotic_hw\src\interfaces\CMakeLists.txt" />
+    <CustomBuild Include="C:\dev\Robotic_soln\src\interfaces\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2C946D6D-842B-365F-9575-7D8C735CBFCE}</UniqueIdentifier>
+      <UniqueIdentifier>{7E9B76B4-0A96-3529-8BBF-80C6BAAD6665}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

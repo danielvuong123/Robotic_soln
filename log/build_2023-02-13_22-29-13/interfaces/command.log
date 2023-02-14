@@ -1,6 +1,0 @@
-Invoking command in 'C:\dev\robotic_hw\build\interfaces': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install
-Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install
-Invoking command in 'C:\dev\robotic_hw\build\interfaces': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev\robotic_hw\build\interfaces --config Release
-Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev\robotic_hw\build\interfaces --config Release
-Invoking command in 'C:\dev\robotic_hw\build\interfaces': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev\robotic_hw\build\interfaces --config Release
-Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev\robotic_hw\build\interfaces --config Release
