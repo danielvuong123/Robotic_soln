@@ -1,0 +1,23 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "C:/dev/robotic_hw/build/interfaces/rosidl_typesupport_introspection_c/interfaces",
+  "template_dir": "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces:msg/SensorRead.idl",
+    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces:srv/ReadSensor.idl",
+    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces:srv/ReadSensor2.idl"
+  ],
+  "target_dependencies": [
+    "C:/opt/ros/foxy/x64/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "C:/opt/ros/foxy/x64/Lib/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces/msg/SensorRead.idl",
+    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces/srv/ReadSensor.idl",
+    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces/srv/ReadSensor2.idl"
+  ]
+}

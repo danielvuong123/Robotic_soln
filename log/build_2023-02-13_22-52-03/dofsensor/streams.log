@@ -1,0 +1,31 @@
+[1.391s] Invoking command in 'C:\dev\robotic_hw\src\dofsensor': PYTHONPATH=C:\dev\robotic_hw\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev\robotic_hw\build\dofsensor build --build-base C:\dev\robotic_hw\build\dofsensor\build install --prefix C:\dev\robotic_hw\install --record C:\dev\robotic_hw\build\dofsensor\install.log --single-version-externally-managed
+[2.485s] running egg_info
+[2.485s] writing C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\PKG-INFO
+[2.485s] writing dependency_links to C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\dependency_links.txt
+[2.485s] writing entry points to C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\entry_points.txt
+[2.500s] writing requirements to C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\requires.txt
+[2.500s] writing top-level names to C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\top_level.txt
+[2.547s] reading manifest file 'C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+[2.563s] writing manifest file 'C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+[2.563s] running build
+[2.563s] running build_py
+[2.563s] copying dofsensor\server.py -> C:\dev\robotic_hw\build\dofsensor\build\lib\dofsensor
+[2.563s] running install
+[2.563s] running install_lib
+[2.579s] copying C:\dev\robotic_hw\build\dofsensor\build\lib\dofsensor\server.py -> C:\dev\robotic_hw\install\Lib\site-packages\dofsensor
+[2.579s] writing byte-compilation script 'C:\Users\dvuon\AppData\Local\Temp\tmpf5xn152t.py'
+[2.579s] c:\opt\ros\foxy\x64\python.exe C:\Users\dvuon\AppData\Local\Temp\tmpf5xn152t.py
+[2.750s] removing C:\Users\dvuon\AppData\Local\Temp\tmpf5xn152t.py
+[2.750s] running install_data
+[2.750s] running install_egg_info
+[2.766s] removing 'C:\dev\robotic_hw\install\Lib\site-packages\dofsensor-0.0.0-py3.8.egg-info' (and everything under it)
+[2.766s] Copying C:\dev\robotic_hw\build\dofsensor\dofsensor.egg-info to C:\dev\robotic_hw\install\Lib\site-packages\dofsensor-0.0.0-py3.8.egg-info
+[2.797s] running install_scripts
+[2.844s] Installing client-script.py script to C:\dev\robotic_hw\install\lib\dofsensor
+[2.844s] Installing client.exe script to C:\dev\robotic_hw\install\lib\dofsensor
+[2.844s] Installing service-script.py script to C:\dev\robotic_hw\install\lib\dofsensor
+[2.844s] Installing service.exe script to C:\dev\robotic_hw\install\lib\dofsensor
+[2.860s] Installing talker-script.py script to C:\dev\robotic_hw\install\lib\dofsensor
+[2.860s] Installing talker.exe script to C:\dev\robotic_hw\install\lib\dofsensor
+[2.860s] writing list of installed files to 'C:\dev\robotic_hw\build\dofsensor\install.log'
+[2.891s] Invoked command in 'C:\dev\robotic_hw\src\dofsensor' returned '0': PYTHONPATH=C:\dev\robotic_hw\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev\robotic_hw\build\dofsensor build --build-base C:\dev\robotic_hw\build\dofsensor\build install --prefix C:\dev\robotic_hw\install --record C:\dev\robotic_hw\build\dofsensor\install.log --single-version-externally-managed

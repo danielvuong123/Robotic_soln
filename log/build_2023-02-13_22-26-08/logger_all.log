@@ -1,0 +1,137 @@
+[0.602s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['c:\\opt\\ros\\foxy\\x64\\Scripts\\colcon', 'build', '--merge-install', '--packages-select', 'dofsensor'][0m
+[0.602s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x0000022F8C96A7F0>>, merge_install=True, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['dofsensor'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x0000022F8C96A7F0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x0000022F8C96AC40>)[0m
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\dev\robotic_hw'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extension 'ignore'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extension 'ignore_ament_install'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extensions ['colcon_pkg']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extension 'colcon_pkg'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extensions ['colcon_meta']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extension 'colcon_meta'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extensions ['ros']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\dofsensor) by extension 'ros'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\dofsensor' with type 'ros.ament_python' and name 'dofsensor'[0m
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extension 'ignore'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extension 'ignore_ament_install'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extensions ['colcon_pkg']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extension 'colcon_pkg'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extensions ['colcon_meta']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extension 'colcon_meta'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extensions ['ros']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\interfaces) by extension 'ros'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\interfaces' with type 'ros.ament_cmake' and name 'interfaces'[0m
+[0.666s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.666s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.666s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.666s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.666s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.682s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'interfaces' in 'src\interfaces'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'cmake_args' from command line to 'None'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'cmake_target' from command line to 'None'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'cmake_clean_first' from command line to 'False'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'cmake_force_configure' from command line to 'False'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'ament_cmake_args' from command line to 'None'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofsensor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.690s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dofsensor' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\robotic_hw\\build\\dofsensor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\robotic_hw\\install', 'merge_install': True, 'path': 'C:\\dev\\robotic_hw\\src\\dofsensor', 'symlink_install': False, 'test_result_base': None}[0m
+[0.692s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.708s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.708s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\robotic_hw\src\dofsensor' with build type 'ament_python'
+[0.708s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofsensor', 'ament_prefix_path')
+[0.714s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[0.714s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\ament_prefix_path.ps1'
+[0.715s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\ament_prefix_path.bat'
+[0.716s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\robotic_hw\install\share\dofsensor\hook\ament_prefix_path.dsv'
+[0.720s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.727s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path 'C:\opt\ros\foxy\x64\tools\vcpkg\installed\x64-windows' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[1.189s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev\robotic_hw\src\dofsensor'
+[1.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev\robotic_hw\src\dofsensor': PYTHONPATH=C:\dev\robotic_hw\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev\robotic_hw\build\dofsensor build --build-base C:\dev\robotic_hw\build\dofsensor\build install --prefix C:\dev\robotic_hw\install --record C:\dev\robotic_hw\build\dofsensor\install.log --single-version-externally-managed[0m
+[1.801s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev\robotic_hw\src\dofsensor' returned '0': PYTHONPATH=C:\dev\robotic_hw\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev\robotic_hw\build\dofsensor build --build-base C:\dev\robotic_hw\build\dofsensor\build install --prefix C:\dev\robotic_hw\install --record C:\dev\robotic_hw\build\dofsensor\install.log --single-version-externally-managed[0m
+[1.812s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install' for CMake module files
+[1.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install' for CMake config files
+[1.817s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofsensor', 'cmake_prefix_path')
+[1.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\cmake_prefix_path.ps1'
+[1.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\cmake_prefix_path.bat'
+[1.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\robotic_hw\install\share\dofsensor\hook\cmake_prefix_path.dsv'
+[1.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install\bin'
+[1.824s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofsensor', 'path_dll')
+[1.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\path_dll.ps1'
+[1.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\path_dll.bat'
+[1.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\robotic_hw\install\share\dofsensor\hook\path_dll.dsv'
+[1.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install\bin'
+[1.830s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofsensor', 'path')
+[1.834s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\path.ps1'
+[1.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\path.bat'
+[1.836s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\robotic_hw\install\share\dofsensor\hook\path.dsv'
+[1.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install\Scripts'
+[1.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install\lib\pkgconfig\dofsensor.pc'
+[1.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev\robotic_hw\install\Lib\site-packages'
+[1.837s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofsensor', 'pythonpath')
+[1.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\pythonpath.ps1'
+[1.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\robotic_hw\install\share\dofsensor\hook\pythonpath.bat'
+[1.842s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\robotic_hw\install\share\dofsensor\hook\pythonpath.dsv'
+[1.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dofsensor)
+[1.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev\robotic_hw\install\share\dofsensor\package.ps1'
+[1.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev\robotic_hw\install\share\dofsensor\package.bat'
+[1.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev\robotic_hw\install\share\dofsensor\package.dsv'
+[1.850s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev\robotic_hw\install\share\colcon-core\packages\dofsensor)
+[1.851s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.851s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.859s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[1.859s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[1.859s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.859s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[6.906s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[6.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\dev\robotic_hw\install\local_setup.ps1'
+[6.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\dev\robotic_hw\install\_local_setup_util_ps1.py'
+[6.913s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\dev\robotic_hw\install\setup.ps1'
+[6.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\dev\robotic_hw\install\local_setup.bat'
+[6.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\dev\robotic_hw\install\_local_setup_util_bat.py'
+[6.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\dev\robotic_hw\install\setup.bat'

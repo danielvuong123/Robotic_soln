@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "C:/dev/robotic_hw/src/interfaces:msg/SensorRead.msg",
+    "C:/dev/robotic_hw/src/interfaces:srv/ReadSensor.srv",
+    "C:/dev/robotic_hw/src/interfaces:srv/ReadSensor2.srv"
+  ]
+}

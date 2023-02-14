@@ -1,0 +1,239 @@
+[0.063s] Invoking command in 'C:\dev\robotic_hw\build\interfaces': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install
+[0.141s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+[0.157s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.204s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[0.579s] -- Found rosidl_default_generators: 1.0.1 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+[0.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") 
+[1.157s] -- Found ament_cmake_ros: 0.9.2 (C:/opt/ros/foxy/x64/share/ament_cmake_ros/cmake)
+[1.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.532s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3.5") 
+[1.547s] -- Found python_cmake_module: 0.8.1 (C:/opt/ros/foxy/x64/share/python_cmake_module/cmake)
+[1.641s] -- Found PythonLibs: optimized;C:/opt/ros/foxy/x64/Lib/python38.lib;debug;C:/Python38/libs/python38_d.lib (found suitable version "3.8.3", minimum required is "3.5") 
+[1.641s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[1.641s] -- Using PYTHON_INCLUDE_DIRS: C:/opt/ros/foxy/x64/include/python3.8
+[1.641s] -- Using PYTHON_LIBRARIES: optimized;C:/opt/ros/foxy/x64/Lib/python38.lib;debug;C:/Python38/libs/python38_d.lib
+[1.672s] -- Found PythonExtra: .pyd  
+[2.219s] -- Using numpy include directory: C:\opt\ros\foxy\x64\lib\site-packages\numpy\core\include
+[2.250s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[2.625s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.672s] -- Added test 'lint_cmake' to check CMake code style
+[2.704s] -- Added test 'xmllint' to check XML markup files
+[2.782s] -- Configuring done
+[3.141s] -- Generating done
+[3.157s] -- Build files have been written to: C:/dev/robotic_hw/build/interfaces
+[3.172s] Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '0': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install
+[3.172s] Invoking command in 'C:\dev\robotic_hw\build\interfaces': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev\robotic_hw\build\interfaces --config Release
+[3.344s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[3.344s] Copyright (C) Microsoft Corporation. All rights reserved.
+[3.344s] 
+[3.641s]   Checking Build System
+[3.797s]   Generating C++ code for ROS interfaces
+[4.157s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[4.266s]   Generating C code for ROS interfaces
+[4.610s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[4.750s]   sensor_read__functions.c
+[4.750s]   read_sensor__functions.c
+[5.000s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_generator_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_generator_c.exp
+[5.063s]   interfaces__rosidl_generator_c.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_generator_c.dll
+[5.141s]   Generating C type support dispatch for ROS interfaces
+[5.407s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[5.516s]   sensor_read__type_support.cpp
+[5.516s]   read_sensor__type_support.cpp
+[5.625s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_c.exp
+[5.688s]   interfaces__rosidl_typesupport_c.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_c.dll
+[5.750s]   Generating C++ type support dispatch for ROS interfaces
+[6.016s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[6.125s]   sensor_read__type_support.cpp
+[6.125s]   read_sensor__type_support.cpp
+[6.391s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_cpp.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_cpp.exp
+[6.438s]   interfaces__rosidl_typesupport_cpp.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_cpp.dll
+[6.547s]   Generating C++ type support for eProsima Fast-RTPS
+[6.844s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[6.954s]   sensor_read__type_support.cpp
+[6.954s]   read_sensor__type_support.cpp
+[7.391s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_fastrtps_cpp.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_fastrtps_cpp.exp
+[7.438s]   interfaces__rosidl_typesupport_fastrtps_cpp.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_fastrtps_cpp.dll
+[7.485s]   Generating C type support for eProsima Fast-RTPS
+[7.797s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[7.907s]   sensor_read__type_support_c.cpp
+[7.907s]   read_sensor__type_support_c.cpp
+[8.297s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_fastrtps_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_fastrtps_c.exp
+[8.344s]   interfaces__rosidl_typesupport_fastrtps_c.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_fastrtps_c.dll
+[8.422s]   Generating C introspection for ROS interfaces
+[8.719s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[8.829s]   sensor_read__type_support.c
+[8.829s]   read_sensor__type_support.c
+[8.938s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_introspection_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_introspection_c.exp
+[8.985s]   interfaces__rosidl_typesupport_introspection_c.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_introspection_c.dll
+[9.063s]   Generating C++ introspection for ROS interfaces
+[9.344s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[9.469s]   sensor_read__type_support.cpp
+[9.469s]   read_sensor__type_support.cpp
+[9.766s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_introspection_cpp.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__rosidl_typesupport_introspection_cpp.exp
+[9.813s]   interfaces__rosidl_typesupport_introspection_cpp.vcxproj -> C:\dev\robotic_hw\build\interfaces\Release\interfaces__rosidl_typesupport_introspection_cpp.dll
+[9.891s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[10.032s]   Generating Python code for ROS interfaces
+[10.532s]   Building Custom Rule C:/dev/robotic_hw/build/interfaces/interfaces__py/CMakeLists.txt
+[10.610s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[10.719s]   _sensor_read_s.c
+[10.719s]   _read_sensor_s.c
+[10.891s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces__python.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces__python.exp
+[10.938s]   interfaces__python.vcxproj -> C:\dev\robotic_hw\build\interfaces\rosidl_generator_py\interfaces\interfaces__python.dll
+[11.016s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[11.110s]   _interfaces_s.ep.rosidl_typesupport_c.c
+[11.266s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces_s__rosidl_typesupport_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces_s__rosidl_typesupport_c.exp
+[11.313s]   interfaces__rosidl_typesupport_c__pyext.vcxproj -> C:\dev\robotic_hw\build\interfaces\rosidl_generator_py\interfaces\interfaces_s__rosidl_typesupport_c.pyd
+[11.375s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[11.469s]   _interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.625s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces_s__rosidl_typesupport_fastrtps_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces_s__rosidl_typesupport_fastrtps_c.exp
+[11.688s]   interfaces__rosidl_typesupport_fastrtps_c__pyext.vcxproj -> C:\dev\robotic_hw\build\interfaces\rosidl_generator_py\interfaces\interfaces_s__rosidl_typesupport_fastrtps_c.pyd
+[11.750s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[11.844s]   _interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.000s]      Creating library C:/dev/robotic_hw/build/interfaces/Release/interfaces_s__rosidl_typesupport_introspection_c.lib and object C:/dev/robotic_hw/build/interfaces/Release/interfaces_s__rosidl_typesupport_introspection_c.exp
+[12.047s]   interfaces__rosidl_typesupport_introspection_c__pyext.vcxproj -> C:\dev\robotic_hw\build\interfaces\rosidl_generator_py\interfaces\interfaces_s__rosidl_typesupport_introspection_c.pyd
+[12.094s]   Building Custom Rule C:/dev/robotic_hw/src/interfaces/CMakeLists.txt
+[12.157s] Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '0': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev\robotic_hw\build\interfaces --config Release
+[12.235s] Invoking command in 'C:\dev\robotic_hw\build\interfaces': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev\robotic_hw\build\interfaces --config Release
+[12.329s] -- Installing: C:/dev/robotic_hw/install/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[12.329s] -- Installing: C:/dev/robotic_hw/install/include/interfaces
+[12.329s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg
+[12.329s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail
+[12.329s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__functions.c
+[12.329s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__functions.h
+[12.344s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__struct.h
+[12.344s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__type_support.h
+[12.344s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.344s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/sensor_read.h
+[12.344s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv
+[12.344s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail
+[12.360s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__functions.c
+[12.360s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__functions.h
+[12.360s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__struct.h
+[12.360s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__type_support.h
+[12.375s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/read_sensor.h
+[12.375s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_generator_c.lib
+[12.391s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_generator_c.dll
+[12.391s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces
+[12.391s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg
+[12.391s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg/detail
+[12.391s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__rosidl_typesupport_fastrtps_c.h
+[12.391s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.391s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv
+[12.391s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv/detail
+[12.391s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__rosidl_typesupport_fastrtps_c.h
+[12.407s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_typesupport_fastrtps_c.lib
+[12.407s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_typesupport_fastrtps_c.dll
+[12.407s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces
+[12.407s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg
+[12.407s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg/detail
+[12.407s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/dds_fastrtps
+[12.422s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__rosidl_typesupport_fastrtps_cpp.hpp
+[12.422s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.422s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv
+[12.422s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv/detail
+[12.422s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/dds_fastrtps
+[12.422s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[12.422s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_typesupport_fastrtps_cpp.lib
+[12.438s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_typesupport_fastrtps_cpp.dll
+[12.438s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces
+[12.438s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg
+[12.438s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg/detail
+[12.454s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__rosidl_typesupport_introspection_c.h
+[12.454s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__type_support.c
+[12.454s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.454s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv
+[12.454s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv/detail
+[12.469s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__rosidl_typesupport_introspection_c.h
+[12.469s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__type_support.c
+[12.469s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_typesupport_introspection_c.lib
+[12.485s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_typesupport_introspection_c.dll
+[12.485s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_typesupport_c.lib
+[12.500s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_typesupport_c.dll
+[12.500s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces
+[12.500s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg
+[12.500s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg/detail
+[12.500s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__builder.hpp
+[12.500s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__struct.hpp
+[12.516s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__traits.hpp
+[12.516s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/sensor_read.hpp
+[12.516s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv
+[12.516s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv/detail
+[12.516s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__builder.hpp
+[12.532s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__struct.hpp
+[12.532s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__traits.hpp
+[12.532s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/read_sensor.hpp
+[12.532s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces
+[12.532s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg
+[12.532s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/msg/detail
+[12.532s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__rosidl_typesupport_introspection_cpp.hpp
+[12.547s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/msg/detail/sensor_read__type_support.cpp
+[12.547s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv
+[12.547s] -- Up-to-date: C:/dev/robotic_hw/install/include/interfaces/srv/detail
+[12.547s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__rosidl_typesupport_introspection_cpp.hpp
+[12.547s] -- Installing: C:/dev/robotic_hw/install/include/interfaces/srv/detail/read_sensor__type_support.cpp
+[12.563s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_typesupport_introspection_cpp.lib
+[12.579s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_typesupport_introspection_cpp.dll
+[12.579s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__rosidl_typesupport_cpp.lib
+[12.594s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__rosidl_typesupport_cpp.dll
+[12.594s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/environment/pythonpath.bat
+[12.594s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/environment/pythonpath.dsv
+[12.594s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/__init__.py
+[12.657s] Compiling 'C:/dev/robotic_hw/install/Lib/site-packages/interfaces/__init__.py'...
+[12.672s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/msg
+[12.672s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/msg/_sensor_read.py
+[12.672s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/msg/_sensor_read_s.c
+[12.688s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/msg/__init__.py
+[12.688s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/srv
+[12.688s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/srv/_read_sensor.py
+[12.704s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/srv/_read_sensor_s.c
+[12.704s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/srv/__init__.py
+[12.704s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.lib
+[12.719s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.pyd
+[12.719s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.lib
+[12.735s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.pyd
+[12.735s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.lib
+[12.750s] -- Installing: C:/dev/robotic_hw/install/Lib/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.pyd
+[12.750s] -- Installing: C:/dev/robotic_hw/install/lib/interfaces__python.lib
+[12.766s] -- Installing: C:/dev/robotic_hw/install/bin/interfaces__python.dll
+[12.782s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/msg/SensorRead.idl
+[12.782s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/srv/ReadSensor.idl
+[12.782s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/msg/SensorRead.msg
+[12.782s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/srv/ReadSensor.srv
+[12.782s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/srv/ReadSensor_Request.msg
+[12.782s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/srv/ReadSensor_Response.msg
+[12.797s] -- Installing: C:/dev/robotic_hw/install/share/ament_index/resource_index/package_run_dependencies/interfaces
+[12.797s] -- Installing: C:/dev/robotic_hw/install/share/ament_index/resource_index/parent_prefix_path/interfaces
+[12.797s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/environment/ament_prefix_path.bat
+[12.797s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/environment/ament_prefix_path.dsv
+[12.797s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/environment/path.bat
+[12.813s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/environment/path.dsv
+[12.813s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/local_setup.bat
+[12.813s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/local_setup.dsv
+[12.813s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/package.dsv
+[12.813s] -- Installing: C:/dev/robotic_hw/install/share/ament_index/resource_index/packages/interfaces
+[12.829s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[12.829s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_generator_cExport-release.cmake
+[12.829s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.844s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[12.844s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[12.844s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-release.cmake
+[12.860s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[12.860s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.875s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[12.875s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[12.875s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-release.cmake
+[12.875s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[12.875s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.875s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfacesConfig.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/cmake/interfacesConfig-version.cmake
+[12.891s] -- Installing: C:/dev/robotic_hw/install/share/interfaces/package.xml
+[12.907s] Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '0': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev\robotic_hw\build\interfaces --config Release

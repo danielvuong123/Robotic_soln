@@ -1,0 +1,5 @@
+  File "C:\dev\robotic_hw\install\Lib\site-packages\dofsensor\server.py", line 24
+    self.get_logger().info('Incoming request\nnumsamples: %d '' % (request.numsamples))
+                                                                                      ^
+SyntaxError: EOL while scanning string literal
+

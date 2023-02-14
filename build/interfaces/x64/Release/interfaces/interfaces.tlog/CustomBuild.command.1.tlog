@@ -1,0 +1,18 @@
+^C:\DEV\ROBOTIC_HW\BUILD\INTERFACES\CMAKEFILES\AFB99443377D0B2C7E73621EFDF2874F\INTERFACES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\ROBOTIC_HW\SRC\INTERFACES\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev/robotic_hw/src/interfaces -BC:/dev/robotic_hw/build/interfaces --check-stamp-file C:/dev/robotic_hw/build/interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\afb99443377d0b2c7e73621efdf2874f\interfaces.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\robotic_hw\src\interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\robotic_hw\src\interfaces\msg\SensorRead.msg" />
+    <None Include="C:\dev\robotic_hw\src\interfaces\srv\ReadSensor.srv" />
+    <None Include="C:\dev\robotic_hw\build\interfaces\rosidl_cmake\srv\ReadSensor_Request.msg" />
+    <None Include="C:\dev\robotic_hw\build\interfaces\rosidl_cmake\srv\ReadSensor_Response.msg" />
+    <None Include="C:\dev\robotic_hw\src\interfaces\srv\ReadSensor2.srv" />
+    <None Include="C:\dev\robotic_hw\build\interfaces\rosidl_cmake\srv\ReadSensor2_Request.msg" />
+    <None Include="C:\dev\robotic_hw\build\interfaces\rosidl_cmake\srv\ReadSensor2_Response.msg" />
+    <None Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\interfaces" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7DD1AAC5-2EBB-3DCD-B73B-02E82D5F5DC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
