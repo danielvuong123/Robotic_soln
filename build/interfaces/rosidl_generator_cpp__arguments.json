@@ -1,11 +1,12 @@
 {
   "package_name": "interfaces",
-  "output_dir": "C:/dev/robotic_hw/build/interfaces/rosidl_generator_cpp/interfaces",
+  "output_dir": "C:/dev/Robotic_soln/build/interfaces/rosidl_generator_cpp/interfaces",
   "template_dir": "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces:msg/SensorRead.idl",
-    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces:srv/ReadSensor.idl",
-    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces:srv/ReadSensor2.idl"
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces:msg/SensorRead.idl",
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces:msg/SensorRead2.idl",
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces:srv/ReadSensor.idl",
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces:srv/ReadSensor2.idl"
   ],
   "target_dependencies": [
     "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -23,8 +24,9 @@
     "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces/msg/SensorRead.idl",
-    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces/srv/ReadSensor.idl",
-    "C:/dev/robotic_hw/build/interfaces/rosidl_adapter/interfaces/srv/ReadSensor2.idl"
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces/msg/SensorRead.idl",
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces/msg/SensorRead2.idl",
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces/srv/ReadSensor.idl",
+    "C:/dev/Robotic_soln/build/interfaces/rosidl_adapter/interfaces/srv/ReadSensor2.idl"
   ]
 }

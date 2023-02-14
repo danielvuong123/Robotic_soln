@@ -20,6 +20,7 @@ class Server(Node):
         self.port = port
         # Connect the socket to the port where the server is listening
         self.server_address = (address, port)
+        print(service,service_name)
         print('connecting to {} port {}'.format(*self.server_address))
         self.sock.connect(self.server_address)
 
@@ -40,13 +41,17 @@ class Server(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-
-    server = Server("127.0.0.3",10000,ReadSensor,'server1','read_sensor1')
-    server2 = Server("127.0.0.5",11000,ReadSensor2,'server2','read_sensor2')
-    t1 = Thread(target = rclpy.spin,args=[server])
-    t2 = Thread(target = rclpy.spin,args=[server2])
-    t1.run()
-    t2.run()
+    #set it so that a service call to 1 starts server 1 and a service call to 2 starts server 2
+    if int(sys.argv[1])==1:
+        server = Server("127.0.0.3",10000,ReadSensor,'server1','read_sensor1')
+        rclpy.spin(server)
+        # t1 = Thread(target = rclpy.spin,args=[server])
+        # t1.run()
+    elif int(sys.argv[1])==2:
+        server2 = Server("127.0.0.5",11000,ReadSensor2,'server2','read_sensor2')
+        rclpy.spin(server2)
+        # t2 = Thread(target = rclpy.spin,args=[server2])
+        # t2.run()
 
     rclpy.shutdown()
 

@@ -1,0 +1,42 @@
+running egg_info
+creating C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info
+writing C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\PKG-INFO
+writing dependency_links to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\dependency_links.txt
+writing entry points to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\entry_points.txt
+writing requirements to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\requires.txt
+writing top-level names to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\top_level.txt
+writing manifest file 'C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+reading manifest file 'C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+writing manifest file 'C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\dev\Robotic_soln\build\dofsensor\build
+creating C:\dev\Robotic_soln\build\dofsensor\build\lib
+creating C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+copying dofsensor\client.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+copying dofsensor\publisher.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+copying dofsensor\server.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+copying dofsensor\__init__.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+running install
+running install_lib
+creating C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\client.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\publisher.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\server.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\__init__.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+writing byte-compilation script 'C:\Users\dvuon\AppData\Local\Temp\tmpkcq85_zv.py'
+c:\opt\ros\foxy\x64\python.exe C:\Users\dvuon\AppData\Local\Temp\tmpkcq85_zv.py
+removing C:\Users\dvuon\AppData\Local\Temp\tmpkcq85_zv.py
+running install_data
+copying resource\dofsensor -> C:\dev\Robotic_soln\install\share\ament_index\resource_index\packages
+copying package.xml -> C:\dev\Robotic_soln\install\share\dofsensor
+running install_egg_info
+Copying C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info to C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client-script.py script to C:\dev\Robotic_soln\install\lib\dofsensor
+Installing client.exe script to C:\dev\Robotic_soln\install\lib\dofsensor
+Installing service-script.py script to C:\dev\Robotic_soln\install\lib\dofsensor
+Installing service.exe script to C:\dev\Robotic_soln\install\lib\dofsensor
+Installing talker-script.py script to C:\dev\Robotic_soln\install\lib\dofsensor
+Installing talker.exe script to C:\dev\Robotic_soln\install\lib\dofsensor
+writing list of installed files to 'C:\dev\Robotic_soln\build\dofsensor\install.log'

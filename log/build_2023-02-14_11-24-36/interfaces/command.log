@@ -1,0 +1,6 @@
+Invoking command in 'C:\dev\Robotic_soln\build\interfaces': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\Robotic_soln\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\Robotic_soln\install -G Visual Studio 16 2019
+Invoked command in 'C:\dev\Robotic_soln\build\interfaces' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\Robotic_soln\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\Robotic_soln\install -G Visual Studio 16 2019
+Invoking command in 'C:\dev\Robotic_soln\build\interfaces': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev\Robotic_soln\build\interfaces --config Release
+Invoked command in 'C:\dev\Robotic_soln\build\interfaces' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev\Robotic_soln\build\interfaces --config Release
+Invoking command in 'C:\dev\Robotic_soln\build\interfaces': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev\Robotic_soln\build\interfaces --config Release
+Invoked command in 'C:\dev\Robotic_soln\build\interfaces' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev\Robotic_soln\build\interfaces --config Release

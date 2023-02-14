@@ -1,10 +1,10 @@
 Metadata-Version: 1.2
 Name: dofsensor
 Version: 0.0.0
-Summary: Robotics HW
+Summary: dof sensor client, server, and publisher
 Home-page: UNKNOWN
 Maintainer: dvuon
 Maintainer-email: dcvuong@mit.edu
-License: None
+License: TODO: License declaration
 Description: UNKNOWN
 Platform: UNKNOWN

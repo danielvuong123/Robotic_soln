@@ -1,2 +1,0 @@
-Invoking command in 'C:\dev\robotic_hw\build\interfaces': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install -G Visual Studio 16 2019
-Invoked command in 'C:\dev\robotic_hw\build\interfaces' returned '1': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\robotic_hw\install c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev\robotic_hw\src\interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\robotic_hw\install -G Visual Studio 16 2019

@@ -1,0 +1,44 @@
+[0.719s] Invoking command in 'C:\dev\Robotic_soln\src\dofsensor': PYTHONPATH=C:\dev\Robotic_soln\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev\Robotic_soln\build\dofsensor build --build-base C:\dev\Robotic_soln\build\dofsensor\build install --prefix C:\dev\Robotic_soln\install --record C:\dev\Robotic_soln\build\dofsensor\install.log --single-version-externally-managed
+[1.110s] running egg_info
+[1.110s] creating C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info
+[1.110s] writing C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\PKG-INFO
+[1.125s] writing dependency_links to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\dependency_links.txt
+[1.125s] writing entry points to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\entry_points.txt
+[1.125s] writing requirements to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\requires.txt
+[1.125s] writing top-level names to C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\top_level.txt
+[1.125s] writing manifest file 'C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+[1.141s] reading manifest file 'C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+[1.141s] writing manifest file 'C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info\SOURCES.txt'
+[1.141s] running build
+[1.141s] running build_py
+[1.141s] creating C:\dev\Robotic_soln\build\dofsensor\build
+[1.141s] creating C:\dev\Robotic_soln\build\dofsensor\build\lib
+[1.141s] creating C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+[1.141s] copying dofsensor\client.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+[1.141s] copying dofsensor\publisher.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+[1.141s] copying dofsensor\server.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+[1.141s] copying dofsensor\__init__.py -> C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor
+[1.141s] running install
+[1.141s] running install_lib
+[1.141s] creating C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+[1.141s] copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\client.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+[1.141s] copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\publisher.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+[1.141s] copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\server.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+[1.157s] copying C:\dev\Robotic_soln\build\dofsensor\build\lib\dofsensor\__init__.py -> C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor
+[1.157s] writing byte-compilation script 'C:\Users\dvuon\AppData\Local\Temp\tmpkcq85_zv.py'
+[1.157s] c:\opt\ros\foxy\x64\python.exe C:\Users\dvuon\AppData\Local\Temp\tmpkcq85_zv.py
+[1.219s] removing C:\Users\dvuon\AppData\Local\Temp\tmpkcq85_zv.py
+[1.219s] running install_data
+[1.219s] copying resource\dofsensor -> C:\dev\Robotic_soln\install\share\ament_index\resource_index\packages
+[1.219s] copying package.xml -> C:\dev\Robotic_soln\install\share\dofsensor
+[1.219s] running install_egg_info
+[1.219s] Copying C:\dev\Robotic_soln\build\dofsensor\dofsensor.egg-info to C:\dev\Robotic_soln\install\Lib\site-packages\dofsensor-0.0.0-py3.8.egg-info
+[1.235s] running install_scripts
+[1.266s] Installing client-script.py script to C:\dev\Robotic_soln\install\lib\dofsensor
+[1.266s] Installing client.exe script to C:\dev\Robotic_soln\install\lib\dofsensor
+[1.266s] Installing service-script.py script to C:\dev\Robotic_soln\install\lib\dofsensor
+[1.266s] Installing service.exe script to C:\dev\Robotic_soln\install\lib\dofsensor
+[1.266s] Installing talker-script.py script to C:\dev\Robotic_soln\install\lib\dofsensor
+[1.266s] Installing talker.exe script to C:\dev\Robotic_soln\install\lib\dofsensor
+[1.266s] writing list of installed files to 'C:\dev\Robotic_soln\build\dofsensor\install.log'
+[1.282s] Invoked command in 'C:\dev\Robotic_soln\src\dofsensor' returned '0': PYTHONPATH=C:\dev\Robotic_soln\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev\Robotic_soln\build\dofsensor build --build-base C:\dev\Robotic_soln\build\dofsensor\build install --prefix C:\dev\Robotic_soln\install --record C:\dev\Robotic_soln\build\dofsensor\install.log --single-version-externally-managed

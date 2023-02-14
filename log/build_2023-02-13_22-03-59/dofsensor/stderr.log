@@ -1,5 +1,0 @@
-  File "C:\dev\robotic_hw\install\Lib\site-packages\dofsensor\server.py", line 12
-    def __init__(self,args**):
-                          ^
-SyntaxError: invalid syntax
-

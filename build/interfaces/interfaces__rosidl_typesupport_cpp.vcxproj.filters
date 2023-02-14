@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_cpp\interfaces\msg\sensor_read__type_support.cpp">
+    <ClCompile Include="C:\dev\Robotic_soln\build\interfaces\rosidl_typesupport_cpp\interfaces\msg\sensor_read__type_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_cpp\interfaces\srv\read_sensor__type_support.cpp">
+    <ClCompile Include="C:\dev\Robotic_soln\build\interfaces\rosidl_typesupport_cpp\interfaces\msg\sensor_read2__type_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\dev\robotic_hw\build\interfaces\rosidl_typesupport_cpp\interfaces\srv\read_sensor2__type_support.cpp">
+    <ClCompile Include="C:\dev\Robotic_soln\build\interfaces\rosidl_typesupport_cpp\interfaces\srv\read_sensor__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\Robotic_soln\build\interfaces\rosidl_typesupport_cpp\interfaces\srv\read_sensor2__type_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\dev\robotic_hw\build\interfaces\CMakeFiles\b2ddd7cf8d720fd20563a03bae12af40\sensor_read__type_support.cpp.rule">
+    <CustomBuild Include="C:\dev\Robotic_soln\build\interfaces\CMakeFiles\6373a6e124790f48ee5c799ec9c59e3a\sensor_read__type_support.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\dev\robotic_hw\src\interfaces\CMakeLists.txt" />
+    <CustomBuild Include="C:\dev\Robotic_soln\src\interfaces\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7DD1AAC5-2EBB-3DCD-B73B-02E82D5F5DC9}</UniqueIdentifier>
+      <UniqueIdentifier>{63C2B8D0-5266-3A57-B9CB-2DBF6B24CD34}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2C946D6D-842B-365F-9575-7D8C735CBFCE}</UniqueIdentifier>
+      <UniqueIdentifier>{7E9B76B4-0A96-3529-8BBF-80C6BAAD6665}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
